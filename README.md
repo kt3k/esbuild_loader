@@ -1,6 +1,6 @@
 # esbuild_loader v0.12.8
 
-This module provides a way to load esbuild wasm from the disk easily.
+This module provides a way to load esbuild wasm into Deno runtime from the disk.
 
 # Usage
 
