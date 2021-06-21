@@ -1,5 +1,5 @@
 test:
-	deno test -A
+	deno test -A mod_test.ts
 
 fmt:
 	deno fmt mod.ts mod_test.ts

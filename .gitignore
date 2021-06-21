@@ -1,1 +1,4 @@
 node_modules
+.vscode
+.vim
+esbuild_deno_loader
