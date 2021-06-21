@@ -20,5 +20,7 @@ jobs:
         with:
           deno-version: ${{ matrix.deno }}
       - run: make fmt-check
+        if: matrix.os == "ubunut-latest"
       - run: make lint
+        if: matrix.os == "ubunut-latest"
       - run: make test
